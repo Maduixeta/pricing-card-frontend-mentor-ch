@@ -22,6 +22,7 @@ p {
 }
 
 #card {
+  height: 100vh;
   box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
   border-radius: 5px;
   overflow: hidden;
@@ -53,6 +54,7 @@ p {
   background-color: #2ebfbd;
   padding: 25px;
   flex-basis: 50%;
+
 }
 
 #top-section h2 {
@@ -122,6 +124,7 @@ ul{
   #card {
     width: 550px;
     height: 400px;
+    overflow: hidden;
   }
   #bottom-section {
     flex-direction: row;
